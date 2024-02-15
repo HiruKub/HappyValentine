@@ -1,0 +1,108 @@
+
+/* .button {
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(224, 145, 145);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+} */
+
+#button1 {
+    appearance: auto;
+    width: 150px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%; /* Set left position to 50% */
+    top: 50%; /* Set top position to 50% */
+    transform: translate(-50%, -50%); /* Translate back by half of width and height */
+    text-align: center;
+    background-color: #ff0000;
+    background-color: #d50000;
+    background-color: #b71c1c;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    opacity: 100;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Lucida Sans';
+    cursor: default;
+    align-items: center;
+    margin: 0em;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    background-color: #ffffff;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-size: 30px;
+    color: #ff0000;
+}
+#parameter {
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: left;
+    align-items: auto;
+    height: 100vh;
+    margin: 0; 
+}
+
+#word {
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: left;
+    align-items: auto;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%); /* Translate back by half of width and height */
+    color: #ff0000;
+    margin: 0; 
+    opacity: 100;
+}
+/* button {
+    appearance: auto;
+    font-style: none;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+} */
